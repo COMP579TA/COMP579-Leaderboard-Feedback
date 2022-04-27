@@ -1,4 +1,10 @@
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-TypeError: load_weights() got an unexpected keyword argument 'root_path'
+  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_072/agent.py", line 103, in load_weights
+    self.actor.load_state_dict(model_dict['actor_weights'])
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Actor:
+	Missing key(s) in state_dict: "fc3.weight", "fc3.bias". 
+	Unexpected key(s) in state_dict: "fc4.weight", "fc4.bias". 
