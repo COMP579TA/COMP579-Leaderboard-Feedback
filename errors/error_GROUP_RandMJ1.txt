@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 214, in <module>
+    sample_eff_score = calc_sample_eff_score(log_dir=save_dir, dx=evaluation_freq, scaler=1./total_timesteps)
+  File "evaluate_agents.py", line 145, in calc_sample_eff_score
+    mean_all_results = np.mean(all_results, axis=1)
+  File "<__array_function__ internals>", line 6, in mean
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 3441, in mean
+    out=out, **kwargs)
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/numpy/core/_methods.py", line 167, in _mean
+    rcount = _count_reduce_items(arr, axis, keepdims=keepdims, where=where)
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/numpy/core/_methods.py", line 76, in _count_reduce_items
+    items *= arr.shape[mu.normalize_axis_index(ax, arr.ndim)]
+numpy.AxisError: axis 1 is out of bounds for array of dimension 1
