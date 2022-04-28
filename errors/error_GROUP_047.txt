@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_047/agent.py", line 190, in load_weights
+    self.agent.actor.load_state_dict(torch.load(root_path+ 'TD3_actor.pth'))
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Actor:
+	size mismatch for l1.weight: copying a param with shape torch.Size([128, 11]) from checkpoint, the shape in current model is torch.Size([400, 11]).
+	size mismatch for l1.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([400]).
+	size mismatch for l2.weight: copying a param with shape torch.Size([128, 128]) from checkpoint, the shape in current model is torch.Size([300, 400]).
+	size mismatch for l2.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([300]).
+	size mismatch for l3.weight: copying a param with shape torch.Size([3, 128]) from checkpoint, the shape in current model is torch.Size([3, 300]).
