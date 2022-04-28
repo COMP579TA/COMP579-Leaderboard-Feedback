@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 213, in <module>
+    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
+  File "evaluate_agents.py", line 103, in evaluate_sample_eff
+    agent.update(curr_obs, action, reward, next_obs, done, timestep)
+  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_030/agent.py", line 212, in update
+    with open(self.path + 'results_loss.log', 'a+') as f:
+AttributeError: 'Agent' object has no attribute 'path'
