@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 192, in <module>
-    agent = agent_module.Agent(env_specs)
-  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_005/agent.py", line 1055, in __init__
-    self.init_models(model, checkpoint_freq)
-  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_005/agent.py", line 1089, in init_models
-    self.high_level_option = UnetDqnHighLevelOption()
-NameError: name 'UnetDqnHighLevelOption' is not defined
