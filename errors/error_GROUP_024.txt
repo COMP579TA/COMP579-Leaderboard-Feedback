@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_024/agent.py", line 66, in load_weights
-    full_path = path + 'checkpoints/output1'
-NameError: name 'path' is not defined
