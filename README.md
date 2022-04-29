@@ -1,98 +1,98 @@
-This leaderboard was created for debugging purposes only with student repos pulled at 2022-04-29 19:34:36.588526 UTC.
+This leaderboard was created for debugging purposes only with student repos pulled at 2022-04-29 19:55:44.810493 UTC.
 
 
 
-GROUP_007 evaluation took 6.40 seconds.
+GROUP_007 evaluation took 5.85 seconds.
 
-GROUP_004 evaluation took 12.03 seconds.
+GROUP_004 evaluation took 11.86 seconds.
 
-GROUP_009 evaluation took 1.97 seconds.
+GROUP_009 evaluation took 2.02 seconds.
 
-GROUP_010 evaluation took 6.45 seconds.
+GROUP_010 evaluation took 6.14 seconds.
 
-GROUP_013 evaluation took 9.82 seconds.
+GROUP_013 evaluation took 9.00 seconds.
 
-GROUP_008 evaluation took 205.61 seconds.
+GROUP_008 evaluation took 195.42 seconds.
 
-GROUP_011 evaluation took 180.20 seconds.
+GROUP_005 evaluation took 201.15 seconds.
 
-GROUP_005 evaluation took 208.00 seconds.
+GROUP_000 evaluation took 210.99 seconds.
 
-GROUP_000 evaluation took 211.08 seconds.
+GROUP_011 evaluation took 191.61 seconds.
 
-GROUP_003 evaluation took 217.05 seconds.
+GROUP_019 evaluation took 9.57 seconds.
 
-GROUP_001 evaluation took 217.53 seconds.
+GROUP_001 evaluation took 220.14 seconds.
 
-GROUP_022 evaluation took 6.86 seconds.
+GROUP_003 evaluation took 228.61 seconds.
 
-GROUP_023 evaluation took 8.08 seconds.
+GROUP_023 evaluation took 7.44 seconds.
 
-GROUP_019 evaluation took 10.70 seconds.
+GROUP_022 evaluation took 6.93 seconds.
 
-GROUP_021 evaluation took 10.29 seconds.
+GROUP_021 evaluation took 9.72 seconds.
 
 GROUP_030 evaluation took 5.80 seconds.
 
-GROUP_042 evaluation took 5.94 seconds.
+GROUP_042 evaluation took 6.11 seconds.
 
-GROUP_045 evaluation took 2.15 seconds.
+GROUP_017 evaluation took 182.84 seconds.
 
-GROUP_048 evaluation took 3.42 seconds.
+GROUP_044 evaluation took 4.36 seconds.
 
-GROUP_044 evaluation took 6.16 seconds.
+GROUP_048 evaluation took 3.50 seconds.
 
-GROUP_050 evaluation took 6.40 seconds.
+GROUP_045 evaluation took 5.44 seconds.
 
-GROUP_047 evaluation took 6.29 seconds.
+GROUP_050 evaluation took 4.49 seconds.
 
-GROUP_053 evaluation took 6.77 seconds.
+GROUP_047 evaluation took 6.45 seconds.
 
-GROUP_051 evaluation took 6.48 seconds.
+GROUP_051 evaluation took 5.86 seconds.
 
-GROUP_054 evaluation took 6.83 seconds.
+GROUP_053 evaluation took 6.82 seconds.
 
-GROUP_052 evaluation took 10.35 seconds.
+GROUP_054 evaluation took 6.95 seconds.
 
-GROUP_017 evaluation took 201.91 seconds.
+GROUP_056 evaluation took 10.85 seconds.
 
-GROUP_058 evaluation took 6.33 seconds.
+GROUP_052 evaluation took 10.79 seconds.
 
-GROUP_059 evaluation took 7.63 seconds.
+GROUP_058 evaluation took 5.70 seconds.
 
-GROUP_056 evaluation took 10.73 seconds.
+GROUP_057 evaluation took 9.45 seconds.
 
-GROUP_057 evaluation took 12.94 seconds.
+GROUP_061 evaluation took 0.27 seconds.
 
-GROUP_061 evaluation took 0.41 seconds.
+GROUP_063 evaluation took 4.85 seconds.
 
-GROUP_063 evaluation took 5.14 seconds.
+GROUP_059 evaluation took 7.45 seconds.
 
-GROUP_067 evaluation took 7.90 seconds.
+GROUP_062 evaluation took 9.82 seconds.
 
-GROUP_062 evaluation took 11.88 seconds.
+GROUP_067 evaluation took 7.21 seconds.
 
-GROUP_069 evaluation took 4.93 seconds.
+GROUP_069 evaluation took 4.40 seconds.
 
-GROUP_070 evaluation took 9.01 seconds.
+GROUP_070 evaluation took 8.71 seconds.
 
-GROUP_072 evaluation took 11.83 seconds.
+GROUP_072 evaluation took 10.96 seconds.
 
-GROUP_DEMO evaluation took 6.77 seconds.
+GROUP_66 evaluation took 5.89 seconds.
 
-GROUP_66 evaluation took 7.64 seconds.
+GROUP_DEMO evaluation took 7.23 seconds.
 
-GROUP_055 evaluation took 211.16 seconds.
+GROUP_055 evaluation took 199.99 seconds.
 
-GROUP_046 evaluation took 282.88 seconds.
+GROUP_046 evaluation took 298.21 seconds.
 
-GROUP_060 evaluation took 265.26 seconds.
+GROUP_RandJB1 evaluation took 162.05 seconds.
 
-GROUP_RandJB1 evaluation took 159.73 seconds.
+GROUP_060 evaluation took 263.92 seconds.
 
-GROUP_73 evaluation took 209.14 seconds.
+GROUP_065 evaluation took 268.08 seconds.
 
-GROUP_065 evaluation took 274.14 seconds.
+GROUP_73 evaluation took 205.59 seconds.
 
 
 
@@ -111,11 +111,11 @@ GROUP_065 evaluation took 274.14 seconds.
 |7      |GROUP_001     |524.12     |
 |8      |GROUP_060     |482.40     |
 |9      |GROUP_065     |304.25     |
-|10      |GROUP_017     |50.05     |
-|11      |GROUP_BaselineJB     |50.00     |
-|12      |GROUP_000     |44.65     |
-|13      |GROUP_73     |40.50     |
-|14      |GROUP_RandJB1     |21.02     |
+|10      |GROUP_BaselineJB     |50.00     |
+|11      |GROUP_000     |44.65     |
+|12      |GROUP_73     |40.50     |
+|13      |GROUP_RandJB1     |21.02     |
+|14      |GROUP_017     |0.00     |
 
 
 **Sample Efficiency Leaderboard**
@@ -129,9 +129,9 @@ GROUP_065 evaluation took 274.14 seconds.
 |5      |GROUP_000     |18.15     |
 |6      |GROUP_008     |14.55     |
 |7      |GROUP_065     |13.53     |
-|8      |GROUP_017     |10.53     |
-|9      |GROUP_055     |7.17     |
-|10      |GROUP_003     |6.68     |
+|8      |GROUP_055     |7.17     |
+|9      |GROUP_003     |6.68     |
+|10      |GROUP_017     |6.23     |
 |11      |GROUP_001     |5.93     |
 |12      |GROUP_005     |4.45     |
 |13      |GROUP_RandJB1     |4.22     |
@@ -185,14 +185,14 @@ GROUP_065 evaluation took 274.14 seconds.
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_004     |114.52     |
-|2      |GROUP_056     |114.52     |
-|3      |GROUP_021     |114.52     |
+|1      |GROUP_056     |114.52     |
+|2      |GROUP_021     |114.52     |
+|3      |GROUP_004     |114.52     |
 |4      |GROUP_050     |48.52     |
 |5      |GROUP_053     |37.57     |
 |6      |GROUP_067     |32.81     |
-|7      |GROUP_047     |32.81     |
-|8      |GROUP_DEMO     |32.81     |
+|7      |GROUP_DEMO     |32.81     |
+|8      |GROUP_047     |32.81     |
 |9      |GROUP_BaselineMJ     |25.00     |
 |10      |GROUP_052     |15.97     |
 |11      |GROUP_061     |15.97     |
@@ -216,8 +216,8 @@ GROUP_065 evaluation took 274.14 seconds.
 |29      |GROUP_059     |6.35     |
 |30      |GROUP_042     |6.33     |
 |31      |GROUP_013     |5.63     |
-|32      |GROUP_054     |4.36     |
-|33      |GROUP_030     |2.98     |
+|32      |GROUP_030     |4.82     |
+|33      |GROUP_054     |4.36     |
 |34      |GROUP_063     |2.90     |
 |35      |GROUP_RandMJ1     |1.10     |
 
