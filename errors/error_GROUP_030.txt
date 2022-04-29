@@ -17,7 +17,6 @@ Traceback (most recent call last):
     myFun()
   File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_030/__init__.py", line 2, in myFun
     from . import agent
-  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_030/agent.py", line 140
-    self.load_weights(agent.__file__.replace('agent.py',''))
-                                                           ^
-TabError: inconsistent use of tabs and spaces in indentation
+  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_030/agent.py", line 6, in <module>
+    from GROUP_030 import agent
+ModuleNotFoundError: No module named 'GROUP_030'
