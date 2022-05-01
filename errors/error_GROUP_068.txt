@@ -1,4 +1,10 @@
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 163, in <module>
-    raise Exception('There is no agent.py or env_info.txt!')
-Exception: There is no agent.py or env_info.txt!
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX4/Backend-v2/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_068/agent.py", line 164, in load_weights
+    self.critic.load_state_dict(torch.load(root_path+'Critic.pth'))
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Critic:
+	Missing key(s) in state_dict: "layers_1.0.weight", "layers_1.0.bias", "layers_1.1.weight", "layers_1.1.bias", "layers_1.2.weight", "layers_1.2.bias", "layers_2.0.weight", "layers_2.0.bias", "layers_2.1.weight", "layers_2.1.bias", "layers_2.2.weight", "layers_2.2.bias". 
+	Unexpected key(s) in state_dict: "layers_Q1.0.weight", "layers_Q1.0.bias", "layers_Q1.1.weight", "layers_Q1.1.bias", "layers_Q1.2.weight", "layers_Q1.2.bias", "layers_Q2.0.weight", "layers_Q2.0.bias", "layers_Q2.1.weight", "layers_Q2.1.bias", "layers_Q2.2.weight", "layers_Q2.2.bias". 
